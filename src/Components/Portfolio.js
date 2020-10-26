@@ -1,10 +1,9 @@
 import React from "react";
 import Style from "./Portfolio.module.scss";
-// import mock1 from '../img/mock1.png';
-import friendly from "../img/friendly.png";
-import abdultolba from "../img/abdultolba.png";
-import indus from "../img/indus.png";
-import spotify from "../img/spotify.png";
+import friendly from "../img/friendly.jpg";
+import abdultolba from "../img/abdultolba.jpg";
+import indus from "../img/indus.jpg";
+import spotify from "../img/spotify.jpg";
 import { info, colors } from "../Info/Info";
 
 export default function Portfolio() {
