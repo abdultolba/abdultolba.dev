@@ -7,11 +7,11 @@ export const info = {
   firstName: "Abdulrahman",
   lastName: "Tolba",
   initials: "at",
-  positions: ["Full Stack Developer", "Philanthropist", "Artist", "Writer"],
+  positions: ["Full Stack Developer", "Artist", "Writer", "Historian"],
   selfPortrait: self,
   gradient: `linear-gradient(135deg, ${colors})`,
   miniBio: [
-    ["💼", "Developer at the University of Michigan"],
+    ["💼", "Developer at DocNetwork"],
     ["💻", "Lover of Technology"],
     ["🇺🇸", "Based in the US"],
     ["✉️", "abdultolba@gmail.com"],
@@ -21,7 +21,7 @@ export const info = {
     ["https://github.com/abdultolba", githubIcon()],
   ],
   bio:
-    "Hello! I'm Abdulrahman. I'm a Full Stack Developer at the University of Michigan. I studied Computer Science at Wayne State University and am passionate about programming and art. I also enjoy working within my community, diving into philosophy & history, and photography.",
+    "Hello! I'm Abdulrahman. I'm a Full Stack Developer at DocNetwork. I studied Computer Science at Wayne State University, and I am passionate about programming and art. I also enjoy working within my community, diving into philosophy & history, and photography.",
   hobbies: [
     ["📖", "reading"],
     ["🛹", "skateboarding"],
