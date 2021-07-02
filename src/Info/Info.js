@@ -3,6 +3,19 @@ import self from "../img/self.png";
 
 export let colors = ["rgb(1, 208, 108)", "rgb(5, 186, 199)"];
 
+/**
+ * Generates and returns a font awesome
+ * icon for the name provided
+ * @param {string} name 
+ */
+export const fetchIcon = name => {
+  return <i className={`fab fa-${name}`} aria-hidden="true" />
+}
+
+const linkedInIcon = () => {
+  return <i className="fa fa-linkedin" aria-hidden="true" />;
+};
+
 export const info = {
   firstName: "Abdulrahman",
   lastName: "Tolba",
@@ -18,7 +31,7 @@ export const info = {
   ],
   socials: [
     ["https://linkedin.com/in/abdultolba", linkedInIcon()],
-    ["https://github.com/abdultolba", githubIcon()],
+    ["https://github.com/abdultolba", fetchIcon('github')],
   ],
   bio:
     "Hello! I'm Abdulrahman. I'm a Software Engineer at Google. I studied Computer Science at Wayne State University, and I am passionate about developing secure, scalable, and accessible applications. I'm also passionate about writing, classic literature, art, community work, and advocating for mental health.",
@@ -29,27 +42,27 @@ export const info = {
     ["🧑‍💻", "coding"],
   ],
   languages: [
-    [<i className="fab fa-js" aria-hidden="true" />, "JavaScript/TypeScript"],
-    [<i className="fab fa-cuttlefish" aria-hidden="true" />, "C/C++, C#"],
-    [<i className="fab fa-python" aria-hidden="true" />, "Python"],
-    [<i className="fas fa-database" aria-hidden="true" />, "SQL/NoSQL"],
-    [<i className="fab fa-java" aria-hidden="true" />, "Java"],
-    [<i className="fab fa-html5" aria-hidden="true" />, "HTML5"],
-    [<i className="fab fa-sass" aria-hidden="true" />, "SASS/CSS"],
+    [fetchIcon('js'), "JavaScript/TypeScript"],
+    [fetchIcon('cuttlefish'), "C/C++, C#"],
+    [fetchIcon('python'), "Python"],
+    [fetchIcon('database'), "SQL/NoSQL"],
+    [fetchIcon('java'), "Java"],
+    [fetchIcon('html5'), "HTML5"],
+    [fetchIcon('sass'), "SASS/CSS"],
   ],
   frameworks: [
-    [<i className="fab fa-node" aria-hidden="true" />, "Node.js"],
-    [<i className="fab fa-react" aria-hidden="true" />, "React"],
-    [<i className="fab fa-angular" aria-hidden="true" />, "Angular"],
+    [fetchIcon('node'), "Node.js"],
+    [fetchIcon('react'), "React"],
+    [fetchIcon('angular'), "Angular"],
     [<></>, "Express.js"],
     [<></>, "Django"],
     [<></>, "Firebase"],
     [<></>, "ASP.NET"],
   ],
   tools: [
-    [<i className="fab fa-git" aria-hidden="true" />, "Git"],
-    [<i className="fab fa-docker" aria-hidden="true" />, "Docker"],
-    [<i className="fab fa-jira" aria-hidden="true" />, "JIRA"],
+    [fetchIcon('git'), "Git"],
+    [fetchIcon('docker'), "Docker"],
+    [fetchIcon('jira'), "JIRA"],
     [<></>, "Heroku"],
     [<></>, "Netlify"],
     [<></>, "Azure"],
@@ -78,11 +91,3 @@ export const info = {
     },
   ],
 };
-
-function linkedInIcon() {
-  return <i className="fa fa-linkedin" aria-hidden="true" />;
-}
-
-function githubIcon() {
-  return <i className="fab fa-github" aria-hidden="true" />;
-}
