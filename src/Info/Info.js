@@ -11,9 +11,9 @@ export const info = {
   selfPortrait: self,
   gradient: `linear-gradient(135deg, ${colors})`,
   miniBio: [
-    ["💼", "Developer at DocNetwork"],
+    ["💼", "Software Engineer at Google"],
     ["💻", "Lover of Technology"],
-    ["🇺🇸", "Based in the US"],
+    ["🇺🇸", "Based in Seattle, WA"],
     ["✉️", "abdultolba@gmail.com"],
   ],
   socials: [
@@ -21,7 +21,7 @@ export const info = {
     ["https://github.com/abdultolba", githubIcon()],
   ],
   bio:
-    "Hello! I'm Abdulrahman. I'm a Full Stack Developer at DocNetwork. I studied Computer Science at Wayne State University, and I am passionate about programming and art. I also enjoy working within my community, diving into philosophy & history, and photography.",
+    "Hello! I'm Abdulrahman. I'm a Software Engineer at Google. I studied Computer Science at Wayne State University, and I am passionate about developing secure, scalable, and accessible applications. I'm also passionate about writing, classic literature, art, community work, and advocating for mental health.",
   hobbies: [
     ["📖", "reading"],
     ["🛹", "skateboarding"],
@@ -30,10 +30,10 @@ export const info = {
   ],
   languages: [
     [<i className="fab fa-js" aria-hidden="true" />, "JavaScript/TypeScript"],
-    [<i className="fab fa-python" aria-hidden="true" />, "Python"],
-    [<i className="fab fa-java" aria-hidden="true" />, "Java"],
-    [<i className="fas fa-database" aria-hidden="true" />, "SQL/NoSQL"],
     [<i className="fab fa-cuttlefish" aria-hidden="true" />, "C/C++, C#"],
+    [<i className="fab fa-python" aria-hidden="true" />, "Python"],
+    [<i className="fas fa-database" aria-hidden="true" />, "SQL/NoSQL"],
+    [<i className="fab fa-java" aria-hidden="true" />, "Java"],
     [<i className="fab fa-html5" aria-hidden="true" />, "HTML5"],
     [<i className="fab fa-sass" aria-hidden="true" />, "SASS/CSS"],
   ],
