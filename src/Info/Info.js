@@ -6,14 +6,11 @@ export let colors = ["rgb(1, 208, 108)", "rgb(5, 186, 199)"];
 /**
  * Generates and returns a font awesome
  * icon for the name provided
- * @param {string} name 
+ * @param {string} name
+ * @param {string} [mainClass] the main icon class (fab, fas, fa...)
  */
-export const fetchIcon = name => {
-  return <i className={`fab fa-${name}`} aria-hidden="true" />
-}
-
-const linkedInIcon = () => {
-  return <i className="fa fa-linkedin" aria-hidden="true" />;
+export const fetchIcon = (name, mainClass = 'fab') => {
+  return <i className={`${mainClass} fa-${name}`} aria-hidden="true" />
 };
 
 export const info = {
@@ -30,7 +27,7 @@ export const info = {
     ["✉️", "abdultolba@gmail.com"],
   ],
   socials: [
-    ["https://linkedin.com/in/abdultolba", linkedInIcon()],
+    ["https://linkedin.com/in/abdultolba", fetchIcon('linkedin', 'fa')],
     ["https://github.com/abdultolba", fetchIcon('github')],
   ],
   bio:
@@ -45,7 +42,7 @@ export const info = {
     [fetchIcon('js'), "JavaScript/TypeScript"],
     [fetchIcon('cuttlefish'), "C/C++, C#"],
     [fetchIcon('python'), "Python"],
-    [fetchIcon('database'), "SQL/NoSQL"],
+    [fetchIcon('database', 'fas'), "SQL/NoSQL"],
     [fetchIcon('java'), "Java"],
     [fetchIcon('html5'), "HTML5"],
     [fetchIcon('sass'), "SASS/CSS"],
