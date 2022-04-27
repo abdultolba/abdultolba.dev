@@ -17,12 +17,12 @@ export const info = {
   firstName: "Abdulrahman",
   lastName: "Tolba",
   initials: "at",
-  positions: ["Software Engineer", "Artist", "Writer"],
+  positions: ["Software Engineer", "Artist", "Photographer", "Writer"],
   selfPortrait: self,
   gradient: `linear-gradient(135deg, ${colors})`,
   miniBio: [
     ["💼", "Software Engineer at Google"],
-    ["💻", "Lover of Technology"],
+    ["📷", "Hobbyist Photographer"],
     ["🇺🇸", "Based in Seattle, WA"],
     ["✉️", "abdultolba@gmail.com"],
   ],
@@ -33,6 +33,7 @@ export const info = {
   bio:
     "Hello! I'm Abdulrahman. I'm a Software Engineer at Google. I studied Computer Science at Wayne State University, and I am passionate about developing secure, scalable, and accessible applications. I'm also passionate about writing, classic literature, art, community work, and advocating for mental health.",
   hobbies: [
+    ["📷", "photographing"],
     ["📖", "reading"],
     ["🛹", "skateboarding"],
     ["✍", "writing"],
@@ -41,6 +42,7 @@ export const info = {
   languages: [
     [fetchIcon('js'), "JavaScript/TypeScript"],
     [fetchIcon('cuttlefish'), "C/C++, C#"],
+    [<></>, "Go"],
     [fetchIcon('python'), "Python"],
     [fetchIcon('database', 'fas'), "SQL/NoSQL"],
     [fetchIcon('java'), "Java"],
@@ -54,7 +56,6 @@ export const info = {
     [<></>, "Express.js"],
     [<></>, "Django"],
     [<></>, "Firebase"],
-    [<></>, "ASP.NET"],
   ],
   tools: [
     [fetchIcon('git'), "Git"],
